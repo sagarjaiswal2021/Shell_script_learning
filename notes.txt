@@ -1,0 +1,54 @@
+########################################################################################
+# Reference website 
+# Name: Learning ocean
+# URL: https://learning-ocean.com/
+########################################################################################
+
+-> to check bash manual
+man bash
+
+-> rename
+mv abc.txt def.sh
+
+-> to give executable permission to any file
+chmod +x <file>.sh      [before executable permission: -rw-r--r--  1 sagar_abhi  staff  69 Sep 13 05:16 first_script.txt]
+e.g. chmod +x def.sh    [after giving the executable permission: -rwxr-xr-x  1 sagar_abhi  staff  69 Sep 13 05:16 def.sh]
+
+->List the shells are installed in my local machine
+cmd: cat /etc/shells
+
+->to check running process
+ps -ef
+
+>to check installed python
+python OR python3
+
+> to locate installed location of python
+which python3
+
+-> shebang syntax
+#!/../../
+e.g. #!/bin/bash
+#!/usr/bin/python3
+
+-> to check the type whether it's builtin / keyword / command
+type -a <builtin/keyword/command>
+e.g. type -a uptime
+o/p: uptime is /usr/bin/uptime      [it shows that it is an binary and stored i this location]
+
+type -a echo
+o/p: echo is a shell builtin        [it is builtin]
+echo is /bin/echo                   [binar is stored in here]
+
+type -a if
+o/p: if is a shell keyword
+
+->Rules for naming variable
+1. case sensitive
+2. can start with underscore
+3. should not start with number, dollar sign($), and special character
+4. can not use reserve keywords
+5. can not have whitespace in between
+
+-> to check list of system defined variable
+env (enter)

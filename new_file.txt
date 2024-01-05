@@ -1,0 +1,2 @@
+This is a new file created using Python!
+Writing to files is simple with Python.
